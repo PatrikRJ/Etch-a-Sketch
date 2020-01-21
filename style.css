@@ -1,0 +1,19 @@
+html, body, div{
+  text-align: center;
+}
+
+#container{
+  display: flex;
+  height: 500px;
+  width: 500px;
+}
+
+
+
+.cell {
+    border: 1px solid gray;
+    margin-right: 2px;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+  }
